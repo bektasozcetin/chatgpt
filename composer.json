@@ -1,0 +1,8 @@
+mkdir chatgpt
+cd chatgpt
+git init
+touch composer.json
+git add composer.json
+git commit -m "Add composer.json file"
+git remote add origin https://github.com/bektasozcetin/chatgpt.git
+git push -u origin main
